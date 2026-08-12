@@ -15,11 +15,11 @@
 <!-- ░░░ HERO BANNER (animated wave) ░░░ -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b8457,50:1e6091,100:6e40c9&height=200&section=header&text=Ji%C5%99%C3%AD%20Hyan&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%C2%B7%20React%20%26%20Firebase&descAlignY=60&descSize=18&animation=fadeIn" alt="banner" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b8457,50:1e6091,100:6e40c9&height=200&section=header&text=Ji%C5%99%C3%AD%20Hyan&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%C2%B7%20Games%20%C2%B7%20AI%20Agents&descAlignY=60&descSize=18&animation=fadeIn" alt="banner" />
 
 <!-- ░░░ TYPING TEXT ░░░ -->
 <a href="https://github.com/jirihyan-monolith">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=3FB950&center=true&vCenter=true&width=560&lines=Full-Stack+Developer;React+19+%C2%B7+Firebase+%C2%B7+Tailwind;Design+systems+%26+clean+architecture;I+make+UI+that+looks+expensive" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=3FB950&center=true&vCenter=true&width=620&lines=Full-Stack+Developer+%26+Game+Dev;Web+%C2%B7+Native+Mobile+%C2%B7+Desktop+%C2%B7+Games;Building+AI+agents+with+Claude;TypeScript+%C2%B7+React+%C2%B7+Three.js+%C2%B7+Kotlin+%C2%B7+.NET" alt="typing" />
 </a>
 
 <!-- ░░░ BADGES: views + socials ░░░ -->
