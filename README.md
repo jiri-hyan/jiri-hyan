@@ -35,13 +35,13 @@
 
 ## 👋 About me
 
-Full-stack developer focused on **React + Firebase**. I care about clean architecture, design systems, and UI that looks expensive. I build modular, production-grade apps — RBAC, i18n, audit trails, offline-first — end to end from data model to pixel.
+Full-stack developer and relentless builder — I ship end to end across **web, native mobile, desktop, and games**, mostly solo, from data model to pixel. Lately a lot of my time goes into **AI-agent tooling and orchestration**.
 
-- 🧩 Modular architecture · **React 19** · **Vite 7**
-- 🔥 **Firebase** — Firestore · Cloud Functions · FCM · offline persistence
-- 🎨 Design systems, glassmorphism, dark/light theming
-- 📱 **Capacitor** — one codebase for web + Android/iOS
-- 🌍 i18n (cs/en) · accessibility · production hygiene
+- 🕹️ **Games** — 2D &amp; 3D with Three.js / React Three Fiber, Phaser, Electron &amp; Tauri: living-world sims, idle/clicker, multiplayer base-builders
+- 🤖 **AI agents** — tooling built *with* and *for* LLMs (Claude / Anthropic): autonomous visual QA, agent orchestration
+- 🧩 **Apps &amp; platforms** — React 19 · TypeScript · Firebase — multi-tenant SaaS and a modular CRM/PM platform
+- 📱 **Native mobile** — Kotlin (Jetpack Compose) + Swift (SwiftUI), offline-first on a shared Firebase backend
+- 🛠️ **Backend &amp; tooling** — .NET / C# · Node · Fastify · Postgres · PowerShell · CI
 
 ---
 
