@@ -26,7 +26,7 @@
 <p>
   <img src="https://komarev.com/ghpvc/?username=jirihyan-monolith&label=Profile%20views&color=0b8457&style=flat" alt="views" />
   <a href="https://www.linkedin.com/in/ji%C5%99%C3%AD-hyan-3a7736260/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="linkedin" /></a>
-  <a href="mailto:jiri0904@gmail.com"><img src="https://img.shields.io/badge/Email-C14B3F?style=flat&logo=gmail&logoColor=white" alt="email" /></a>
+  <a href="mailto:jiri.hyan@entry-cz.com"><img src="https://img.shields.io/badge/Email-C14B3F?style=flat&logo=gmail&logoColor=white" alt="email" /></a>
 </p>
 
 </div>
