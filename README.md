@@ -81,8 +81,7 @@ Full-stack developer focused on **React + Firebase**. I care about clean archite
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=jirihyan-monolith&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=3FB950&icon_color=58A6FF&bg_color=0D1117" alt="stats" />
-<img height="165" src="https://github-readme-streak-stats.demolab.com/?user=jirihyan-monolith&theme=tokyonight&hide_border=true&background=0D1117&ring=3FB950&fire=3FB950&currStreakLabel=58A6FF" alt="streak" />
+<img width="495" src="https://raw.githubusercontent.com/jirihyan-monolith/jirihyan-monolith/main/assets/github-stats.svg" alt="GitHub stats — real language mix including private work" />
 
 <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=jirihyan-monolith&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=3FB950&line=58A6FF&point=ffffff&area=true" alt="activity" />
 
@@ -90,10 +89,16 @@ Full-stack developer focused on **React + Firebase**. I care about clean archite
 
 ---
 
-## 🏆 Trophies
+## ✨ Highlights
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=jirihyan-monolith&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=6" alt="trophies" />
+
+<img src="https://img.shields.io/badge/Polyglot-17_languages-3FB950?style=for-the-badge" alt="polyglot" />
+<img src="https://img.shields.io/badge/Primary-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="primary" />
+<img src="https://img.shields.io/badge/Focus-React_%2B_Firebase-087EA4?style=for-the-badge&logo=react&logoColor=white" alt="focus" />
+<img src="https://img.shields.io/badge/Mobile-Kotlin_%2B_Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="mobile" />
+<img src="https://img.shields.io/badge/~3.2k-contributions%2Fyear-1e6091?style=for-the-badge&logo=github&logoColor=white" alt="contributions" />
+
 </div>
 
 ---
