@@ -1,127 +1,80 @@
-<!--
-  ════════════════════════════════════════════════════════════════════════
-  PROFILE README — jiri-hyan
-  ────────────────────────────────────────────────────────────────────────
-  TIP for private accounts: to make the Stats / Streak / Activity widgets
-  show your real numbers (not near-zero), enable:
-     GitHub → Settings → Profile → "Include private contributions on my
-     profile"  ✅
-  Otherwise only public activity is counted.
+# Jiří Hyan
 
-  Socials: LinkedIn + Email are set. Add a Portfolio/website badge anytime.
-  ════════════════════════════════════════════════════════════════════════
--->
+I build software end to end — games, desktop apps and the tooling around them — usually alone,
+from the data model to the last pixel. I like problems where the result has to be generated rather
+than drawn: procedural worlds, simulations, and test harnesses that photograph an app nobody is
+looking at.
 
-<!-- ░░░ HERO BANNER (animated wave) ░░░ -->
-<div align="center">
+[LinkedIn](https://www.linkedin.com/in/ji%C5%99%C3%AD-hyan-3a7736260/) · Czech Republic
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b8457,50:1e6091,100:6e40c9&height=200&section=header&text=Ji%C5%99%C3%AD%20Hyan&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%C2%B7%20Games%20%C2%B7%20AI%20Agents&descAlignY=60&descSize=18&animation=fadeIn" alt="banner" />
+<br>
 
-<!-- ░░░ TYPING TEXT ░░░ -->
-<a href="https://github.com/jiri-hyan">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=3FB950&center=true&vCenter=true&width=620&lines=Full-Stack+Developer+%26+Game+Dev;Web+%C2%B7+Native+Mobile+%C2%B7+Desktop+%C2%B7+Games;Building+AI+agents+with+Claude;TypeScript+%C2%B7+React+%C2%B7+Three.js+%C2%B7+Kotlin+%C2%B7+.NET" alt="typing" />
-</a>
+## Ashrim
 
-<!-- ░░░ BADGES: views + socials ░░░ -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=jiri-hyan&label=Profile%20views&color=0b8457&style=flat" alt="views" />
-  <a href="https://www.linkedin.com/in/ji%C5%99%C3%AD-hyan-3a7736260/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="linkedin" /></a>
-  <a href="mailto:jiri.hyan@entry-cz.com"><img src="https://img.shields.io/badge/Email-C14B3F?style=flat&logo=gmail&logoColor=white" alt="email" /></a>
-</p>
+<img src="assets/ashrim-city.jpg" alt="Ashrim — Valdheim, the last great city" width="100%">
 
-</div>
+**A single-player MMO that behaves like a live server.** You are the only real player, but simulated
+bot players level up, fight and die around you, three realms wage a cold war, and the front line
+against the Darkness moves on its own — whether you are there or not.
 
----
+- **Every pixel is code.** Terrain, buildings, characters and UI come from canvas-2D generators —
+  no bitmaps, no AI-generated art. A 3072 × 3072-tile world, from the last city to the scorched edge.
+- **The world simulation runs in Rust, compiled to WebAssembly**, next to a Phaser 3 + TypeScript
+  game, shipped as a Tauri desktop app.
+- **1,900+ automated tests** and headless screenshot harnesses that render the world, cities and
+  characters without opening a window — visual changes are reviewed as before/after images.
 
-## 👋 About me
+<img src="assets/ashrim.jpg" alt="Ashrim — on the road out of the city, bot players talking in the chat" width="100%">
 
-Full-stack developer and relentless builder — I ship end to end across **web, native mobile, desktop, and games**, mostly solo, from data model to pixel. Lately a lot of my time goes into **AI-agent tooling and orchestration**.
+<sub>Phaser 3 · TypeScript · Rust / WASM · Tauri 2 · private repository</sub>
 
-- 🕹️ **Games** — 2D &amp; 3D with Three.js / React Three Fiber, Phaser, Electron &amp; Tauri: living-world sims, idle/clicker, multiplayer base-builders
-- 🤖 **AI agents** — tooling built *with* and *for* LLMs (Claude / Anthropic): autonomous visual QA, agent orchestration
-- 🧩 **Apps &amp; platforms** — React 19 · TypeScript · Firebase — multi-tenant SaaS and a modular CRM/PM platform
-- 📱 **Native mobile** — Kotlin (Jetpack Compose) + Swift (SwiftUI), offline-first on a shared Firebase backend
-- 🛠️ **Backend &amp; tooling** — .NET / C# · Node · Fastify · Postgres · PowerShell · CI
+<br>
 
----
+## WorkSpace
 
-## 🛠️ Tech Stack
+<table>
+  <tr>
+    <td width="50%"><img src="assets/workspace-campus.jpg" alt="WorkSpace — the office campus"></td>
+    <td width="50%"><img src="assets/workspace-office.jpg" alt="WorkSpace — the manager's office"></td>
+  </tr>
+</table>
 
-**Languages**
+**A 3D office where AI coding agents come to work.** Every Claude Code session becomes a coworker in a
+low-poly campus: they hold a morning stand-up grounded in real git and test results, take tasks from
+you, and walk over to hand in their work for review.
 
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
-</p>
+- The raw agent event stream never reaches the UI — the Electron main process reduces it to typed
+  state first, so the React Three Fiber scene renders only from that state and can be swapped freely.
+- A concurrency governor shares one subscription's rate limit across all agents, and every risky
+  tool call waits for a human to approve it.
 
-**Frameworks &amp; Tools**
+<sub>Electron · React 19 · Three.js / React Three Fiber · TypeScript · SQLite · Claude Agent SDK · private repository</sub>
 
-<p>
-  <img src="https://img.shields.io/badge/React-087EA4?style=for-the-badge&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-DD8B1A?style=for-the-badge&logo=firebase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind-0EA5E9?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-3C873A?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/Capacitor-53B9FF?style=for-the-badge&logo=capacitor&logoColor=white" />
-  <img src="https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white" />
-  <img src="https://img.shields.io/badge/Framer_Motion-E5326B?style=for-the-badge&logo=framer&logoColor=white" />
-  <img src="https://img.shields.io/badge/TanStack_Query-EF4E34?style=for-the-badge&logo=reactquery&logoColor=white" />
-</p>
+<br>
 
----
+## Ledge &nbsp;<sup>open source</sup>
 
-## 📊 GitHub stats
+<p align="center"><img src="https://raw.githubusercontent.com/jiri-hyan/ledge-app/main/docs/screenshots/drawer.png" alt="Ledge — the drawer" width="72%"></p>
 
-<div align="center">
+**An always-on drawer at the top edge of the Windows screen** — projects and dev servers, running
+coding sessions, notes and quick actions, one mouse move away. It never steals focus and goes quiet
+while a fullscreen game is running.
 
-<img width="495" src="https://raw.githubusercontent.com/jiri-hyan/jiri-hyan/main/assets/github-stats.svg" alt="GitHub stats — real language mix including private work" />
+<sub>Rust · Tauri 2 · SolidJS · [source](https://github.com/jiri-hyan/ledge-app) · [download](https://github.com/jiri-hyan/ledge-app/releases/latest)</sub>
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=jiri-hyan&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=3FB950&line=58A6FF&point=ffffff&area=true" alt="activity" />
+<br>
 
-</div>
+## Also built
 
----
+| | |
+| --- | --- |
+| **War With Friends** | 3D base-builder where deterministic ballistic missiles carry your friends' names — Three.js, Electron |
+| **Z hadrů na trůn** | Medieval idle game, from beggar in the mud to the throne, built for Steam — vanilla JS, Electron |
+| **Bonsai Brew** | Cozy idle sim of a bonsai nursery with its own procedural pixel-art renderer — C#, .NET 8, Raylib |
+| **Kronika** | Virtual tabletop for D&D in Czech, with an AI narrator running the rules — React, Fastify, Postgres |
+| **TeamApp** | Multi-tenant platform for sports clubs: training, attendance, payments — Expo, Firebase |
+| **LayoutLens** | Responsive-layout auditor: screenshots from mobile to 4K, defects out as JSON — Node, Playwright |
+| **Kolonie** | A game that teaches real Python and C by programming a robot colony — early prototype |
 
-## ✨ Highlights
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/31-repositories-6e40c9?style=for-the-badge&logo=github&logoColor=white" alt="repositories" />
-<img src="https://img.shields.io/badge/Polyglot-18_languages-3FB950?style=for-the-badge" alt="polyglot" />
-<img src="https://img.shields.io/badge/Primary-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="primary" />
-<img src="https://img.shields.io/badge/Focus-React_%2B_Firebase-087EA4?style=for-the-badge&logo=react&logoColor=white" alt="focus" />
-<img src="https://img.shields.io/badge/Mobile-Kotlin_%2B_Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="mobile" />
-<img src="https://img.shields.io/badge/~5k-contributions%2Fyear-1e6091?style=for-the-badge&logo=github&logoColor=white" alt="contributions" />
-
-</div>
-
----
-
-## 🐍 Contribution graph
-
-<div align="center">
-
-<!-- Auto-generated by the GitHub Action at .github/workflows/snake.yml -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jiri-hyan/jiri-hyan/output/github-contribution-grid-snake-dark.svg" />
-  <img alt="snake" src="https://raw.githubusercontent.com/jiri-hyan/jiri-hyan/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
-
----
-
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,50:1e6091,100:0b8457&height=110&section=footer" alt="footer" />
-
-<sub>“First, solve the problem. Then, write the code.”</sub>
-
-</div>
+Also native mobile (Kotlin + Jetpack Compose, Swift + SwiftUI) and .NET back ends.
+Most of my repositories are private — I'm happy to walk through the code on a call.
