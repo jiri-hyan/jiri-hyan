@@ -1,9 +1,12 @@
 # Jiří Hyan
 
-I build software end to end — games, desktop apps and the tooling around them — usually alone,
-from the data model to the last pixel. I like problems where the result has to be generated rather
-than drawn: procedural worlds, simulations, and test harnesses that photograph an app nobody is
-looking at.
+I build software end to end — usually alone, from the data model to the last pixel.
+
+- **Games** — 2D and 3D with Phaser, Three.js / React Three Fiber, Electron and Tauri
+- **AI agents** — tooling built with and for Claude: visual QA, agent orchestration
+- **Apps** — React, TypeScript and Firebase, from multi-tenant SaaS to desktop utilities
+- **Native mobile** — Kotlin with Jetpack Compose, Swift with SwiftUI, offline-first
+- **Back end** — Rust, .NET / C#, Node, Fastify, Postgres
 
 [LinkedIn](https://www.linkedin.com/in/ji%C5%99%C3%AD-hyan-3a7736260/) · Czech Republic
 
@@ -11,22 +14,13 @@ looking at.
 
 ## Ashrim
 
-<img src="assets/ashrim-city.jpg" alt="Ashrim — Valdheim, the last great city" width="100%">
-
-**A single-player MMO that behaves like a live server.** You are the only real player, but simulated
-bot players level up, fight and die around you, three realms wage a cold war, and the front line
-against the Darkness moves on its own — whether you are there or not.
-
-- **Every pixel is code.** Terrain, buildings, characters and UI come from canvas-2D generators —
-  no bitmaps, no AI-generated art. A 3072 × 3072-tile world, from the last city to the scorched edge.
-- **The world simulation runs in Rust, compiled to WebAssembly**, next to a Phaser 3 + TypeScript
-  game, shipped as a Tauri desktop app.
-- **1,900+ automated tests** and headless screenshot harnesses that render the world, cities and
-  characters without opening a window — visual changes are reviewed as before/after images.
-
 <img src="assets/ashrim.jpg" alt="Ashrim — on the road out of the city, bot players talking in the chat" width="100%">
 
-<sub>Phaser 3 · TypeScript · Rust / WASM · Tauri 2 · private repository</sub>
+A single-player MMO that behaves like a live server: bot players level up and die around you, and the
+war moves on whether you are there or not. Every pixel is drawn by code — no bitmaps, no AI art — and
+the world simulation runs in Rust compiled to WebAssembly.
+
+<sub>Phaser 3 · TypeScript · Rust / WASM · Tauri 2</sub>
 
 <br>
 
@@ -39,26 +33,20 @@ against the Darkness moves on its own — whether you are there or not.
   </tr>
 </table>
 
-**A 3D office where AI coding agents come to work.** Every Claude Code session becomes a coworker in a
-low-poly campus: they hold a morning stand-up grounded in real git and test results, take tasks from
-you, and walk over to hand in their work for review.
+A 3D office where every AI coding session is a coworker: a morning stand-up grounded in real git and
+test results, tasks from you, finished work walked over for review — and nothing risky runs without
+your approval.
 
-- The raw agent event stream never reaches the UI — the Electron main process reduces it to typed
-  state first, so the React Three Fiber scene renders only from that state and can be swapped freely.
-- A concurrency governor shares one subscription's rate limit across all agents, and every risky
-  tool call waits for a human to approve it.
-
-<sub>Electron · React 19 · Three.js / React Three Fiber · TypeScript · SQLite · Claude Agent SDK · private repository</sub>
+<sub>Electron · React 19 · Three.js · TypeScript · SQLite · Claude Agent SDK</sub>
 
 <br>
 
-## Ledge &nbsp;<sup>open source</sup>
+## Ledge
 
 <p align="center"><img src="https://raw.githubusercontent.com/jiri-hyan/ledge-app/main/docs/screenshots/drawer.png" alt="Ledge — the drawer" width="72%"></p>
 
-**An always-on drawer at the top edge of the Windows screen** — projects and dev servers, running
-coding sessions, notes and quick actions, one mouse move away. It never steals focus and goes quiet
-while a fullscreen game is running.
+An always-on drawer at the top edge of the Windows screen — projects, dev servers, coding sessions and
+notes, one mouse move away. Never steals focus, goes quiet during fullscreen games.
 
 <sub>Rust · Tauri 2 · SolidJS · [source](https://github.com/jiri-hyan/ledge-app) · [download](https://github.com/jiri-hyan/ledge-app/releases/latest)</sub>
 
@@ -66,15 +54,26 @@ while a fullscreen game is running.
 
 ## Also built
 
-| | |
-| --- | --- |
-| **War With Friends** | 3D base-builder where deterministic ballistic missiles carry your friends' names — Three.js, Electron |
-| **Z hadrů na trůn** | Medieval idle game, from beggar in the mud to the throne, built for Steam — vanilla JS, Electron |
-| **Bonsai Brew** | Cozy idle sim of a bonsai nursery with its own procedural pixel-art renderer — C#, .NET 8, Raylib |
-| **Kronika** | Virtual tabletop for D&D in Czech, with an AI narrator running the rules — React, Fastify, Postgres |
-| **TeamApp** | Multi-tenant platform for sports clubs: training, attendance, payments — Expo, Firebase |
-| **LayoutLens** | Responsive-layout auditor: screenshots from mobile to 4K, defects out as JSON — Node, Playwright |
-| **Kolonie** | A game that teaches real Python and C by programming a robot colony — early prototype |
+- **War With Friends** — 3D base-builder with deterministic ballistic missiles <sub>· Three.js, Electron</sub>
+- **Z hadrů na trůn** — medieval idle game, from beggar to king, built for Steam <sub>· JavaScript, Electron</sub>
+- **Bonsai Brew** — cozy bonsai-nursery sim with a procedural pixel-art renderer <sub>· C#, Raylib</sub>
+- **Kronika** — D&D tabletop in Czech with an AI narrator running the rules <sub>· React, Fastify, Postgres</sub>
+- **TeamApp** — multi-tenant platform for sports clubs <sub>· Expo, Firebase</sub>
+- **LayoutLens** — responsive-layout auditor, mobile to 4K, defects out as JSON <sub>· Node, Playwright</sub>
 
-Also native mobile (Kotlin + Jetpack Compose, Swift + SwiftUI) and .NET back ends.
-Most of my repositories are private — I'm happy to walk through the code on a call.
+<sub>Most of my repositories are private — happy to walk through the code on a call.</sub>
+
+<br>
+
+<div align="center">
+
+<img src="assets/github-stats.svg" alt="GitHub stats, private repositories included" width="495">
+
+<img src="assets/activity.svg" alt="Contributions per week" width="100%">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jiri-hyan/jiri-hyan/output/github-contribution-grid-snake-dark.svg">
+  <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/jiri-hyan/jiri-hyan/output/github-contribution-grid-snake.svg">
+</picture>
+
+</div>
