@@ -8,7 +8,7 @@ I build software end to end — usually alone, from the data model to the last p
 - **Native mobile** — Kotlin with Jetpack Compose, Swift with SwiftUI, offline-first
 - **Back end** — Rust, .NET / C#, Node, Fastify, Postgres
 
-[LinkedIn](https://www.linkedin.com/in/ji%C5%99%C3%AD-hyan-3a7736260/) · Czech Republic
+[LinkedIn](https://www.linkedin.com/in/jirihyan/) · Czech Republic
 
 <br>
 
